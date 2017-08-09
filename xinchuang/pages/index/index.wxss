@@ -1,0 +1,80 @@
+.m-l-20 {
+  margin-left: 20rpx; 
+}
+.m-r-20 {
+  margin-right: 20rpx;
+}
+.clearfix:after {
+  height: 0;
+  content: "";
+  clear: both;
+  visibility: hidden;
+}
+.inline-center {
+  display: block;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+.block-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left {
+  width: 500rpx;
+  height: 100%;
+  float: left;
+}
+.right {
+  width: 210rpx;
+  height: 100%;
+  float: left;
+}
+.label {
+  padding: 10rpx 0;
+  position: relative;
+}
+.label image {
+  width: 35rpx;
+  height: 35rpx;
+}
+.label text {
+  margin: 40rpx;
+  font-size: 11pt;
+  color: #353535;
+}
+.label-r {
+ position: absolute;
+ right: 0;
+ transform: translateY(-100%);
+}
+
+.head {
+  height: 180rpx;
+  position: relative;
+  border-bottom: 1rpx dashed #888;
+}
+.h-title {
+  margin-top: 50rpx;
+  font-size: 17pt;
+}
+.h-describe {
+  margin-top: 10rpx;
+  font-size: 11pt;
+  color: #888;
+}
+
+.member {
+  height: 100rpx;
+  border-bottom: 1rpx dashed #888;
+  position: relative;
+}
+
+.about {
+  margin-top: 20rpx;
+}
+.about>view {
+  padding: 20rpx 0;
+}

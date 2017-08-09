@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="head m-l-20 m-r-20">
+  <view class="left">
+    <view class="h-title">榕江新创广告</view>
+    <view class="h-describe">喷绘·写真·车贴</view>
+  </view>
+  <view class="right"></view>
+</view>
+<view class="member m-l-20 m-r-20">
+  <view class="left">
+    <view class="label label-3 block-center">
+    <image src="{{ icon[1] }}" class="inline-center"></image>
+    <text>项目承接</text>
+  </view>
+  </view>
+  <view class="right"></view>
+</view>
+<view class="about m-l-20 m-r-20">
+  <view class="label label-3">
+    <image src="{{ icon[0] }}" class="inline-center"></image>
+    <text>详细地址</text>
+    <text class="label-r">></text>
+  </view>
+  <view class="label label-2">
+    <image src="{{ icon[2] }}" class="inline-center"></image>
+    <text>联系电话：</text>
+  </view>
+</view>
+
